@@ -67,6 +67,7 @@ export default {
 
 <style scoped>
 div {
+  max-width: 100%;
     background-color: #f6f6f6;
 }
 /* html {
@@ -92,7 +93,7 @@ div {
   align-items: center;
   margin: 0px 20px;
   flex-direction: column;
-  background-color: #f6f6f6;
+
 }
 
 .title {
@@ -115,6 +116,7 @@ div {
 }
 
 .product {
+  max-width: 100%;
   display: flex;
   text-align: left;
   align-items: center;
@@ -137,18 +139,11 @@ div {
 }
 
 .title-img {
-  width: 59%;
+  width: 50%;
 }
 
 .img {
-  width: 805px;
+  width: 100%;
 }
-@media only screen and (max-width: 320px) {
 
- .title-img{height:150px;}
-.product{width: 320px; background-color: aqua;}
-
-}
-.img{ height: 50px;}
-.body{height: 320px;}
 </style>

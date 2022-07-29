@@ -37,7 +37,7 @@ export default {
 
 .logo{
   background-image: url("https://cdn.worldvectorlogo.com/logos/apple-4.svg");
-     width: 57px;
+     max-width: 100%;
      background-size: cover;
 
 border: 6px solid #0f250c;
@@ -98,6 +98,7 @@ animation: gorod 5s infinite linear;}
   color: #7b7b7b66;
 } 
 .menu{ 
+  max-width: 100%;
     background-color: #237196;;
     height: 75px;
     display: flex;
@@ -112,10 +113,11 @@ animation: gorod 5s infinite linear;}
       font-size: unset;
 }
 .menuu{ 
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
+ max-width: 100%;
 }
 
 a{
@@ -137,45 +139,42 @@ font-weight: bold;
   height: 80px;
 } */
 @media only screen and (max-width: 320px) {
-  .menu{width: 304px;}
-  .menuu {
+   .menuu {
     font-size: 12px
   }
   
 }
 @media only screen and (max-width: 375px) {
-  .menu{width: 359px}
-  .menuu {
-    font-size: 14px
-  }
+
+ 
   
 }
 @media only screen and (max-width: 425px){
-  .menu{width: 305px;}
-  .menuu{font-size: 18px}
+
     .inform{display:none}
   .logo{display:none}
   }
 
 @media only screen and (max-width: 768px){
-  .logo{width: 170px}
+.logo{width: 12%;}
   .inform{margin-left:5px;}
-    .menu {width: 305px;
+ 
   }
-    .menuu {
-    font-size: 15px
-  }
-};
+  
+
 @media only screen and (max-width: 1024px){
   .inform{margin-left:15px;}
-  .menuu {
-    font-size: 20px
-  }
-  .logo{width: 65px;}
+
+.logo{width: 7%;}
 };
+@media only screen and (max-width: 1440px){
+  .logo{width: 4%;}
+
+}
 @media only screen and (max-width: 2560px){
-   .logo{width: 95px;}
+
    .inform{width: 50%;}
+.logo{width: 12%;}
 
 } 
 </style>

@@ -212,7 +212,7 @@ svg {
 }
 .shapka{
   height: 150px;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   align-items: center;
   background-color: #f6f6f6;
@@ -255,7 +255,7 @@ input:hover {
 }
 .content{
   margin: 0 auto;
-  width: 1440px;
+  max-width: 100%;
 }
 .body{
   display: flex;
@@ -266,6 +266,7 @@ input:hover {
   background-color: #f5f5f7;
 }
 .search {
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -273,13 +274,15 @@ input:hover {
   margin: 1%;
 }
 .products {
+  max-width: 100%;
   display: flex;
   text-align: center;
   flex-wrap: wrap;
-  justify-content: flex-start;;
+  justify-content: flex-start;
+  background-color: aqua
 }
 .product_card{
-    /* width: 40%; */
+    width: 100%;
     padding: 2%;
     margin: 1%;
     box-shadow: inset 0 0 10px 5px rgb(232 234 237);
@@ -303,6 +306,7 @@ input:hover {
 .img{
   margin: 7%;
   padding: 5%;
+  max-width: 80%;
 }
 .title{
   font-size: 100%;    
@@ -330,45 +334,17 @@ input:hover {
 }
 
 @media only screen and (max-width: 320px) {
- .products{ width:305px;background-color: aqua;
-}
-.shapka{width: 304px;background-color: aqua}
-.product_card{ width: 300px;}
 p{display:none}
-.content{width: 305px;}
+.product_card{width: 100%;}
 }
 
-@media only screen and (max-width: 375px) {
- .products{ width:360px;background-color: aqua;
-}
-.content{width: 360px;}
-.shapka{width: 359px;background-color: aqua}
-.product_card{ width: 340px;}
 
-
-}
-@media only screen and (max-width: 425px){
- .products{ width:305px;background-color: aqua;
-}
-.shapka{width: 425px;background-color: aqua}
-.product_card{ width: 300px;}
-
-.content{width: 305px;}
-}
 @media only screen and (max-width: 768px){
- .products{ width:752px;background-color: aqua;
-}
-.shapka{width: 752px;background-color: aqua}
-.product_card{ width: 330px;}
 
-.content{width: 752px;}
+.product_card{width: 44%;}
+
+p.title{background-size: 12px}
 };
-@media only screen and (max-width: 1024px){
- .products{ width:1008px;background-color: aqua;
-}
-.shapka{width: 752px;background-color: aqua}
-.product_card{ width: 442px;}
 
-.content{width:1008px;}
-}
+
 </style>

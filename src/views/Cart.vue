@@ -79,13 +79,14 @@ cursor: pointer;
   display: flex;
 }
 .row {
+  width: 100%;
       display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
 }
 .container{
-  width: 1440px;
+  width:100%;
   margin: 0 auto;
 }
  .description{

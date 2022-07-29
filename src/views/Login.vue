@@ -139,6 +139,7 @@ animation: gorod 5s infinite linear;}
 .flexin{
     display: flex;
         justify-content: center;
+
 }
 .part1{
     width: 50%;
@@ -156,6 +157,7 @@ animation: gorod 5s infinite linear;}
     display: flex;
     align-items: center;
         margin: 27px 0px 10px 0px;
+        width: 50%;
 }
 .liner{
     height: 1px;
@@ -189,4 +191,5 @@ input {
   border: 1px solid black;
   z-index: 0;
 }
+
 </style>
